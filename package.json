@@ -1,0 +1,9 @@
+{
+  "name": "wild-event-emitter",
+  "version": "1.0.0",
+  "description": "Add wildcard to EventEmitter",
+  "main": "index.js",
+  "repository": "https://github.com/mouse484/WildEventEmitter.git",
+  "author": "mouse_484 <escmouse484@gmail.com>",
+  "license": "MIT"
+}
