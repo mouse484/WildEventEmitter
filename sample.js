@@ -6,7 +6,6 @@ event.on("*", (name, ...callback) => {
   console.log(`name: ${name} |`, ...callback);
 });
 
-
 event.emit("ready", "ready...");
 
 event.emit("number", 1, 2, 3, 4);

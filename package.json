@@ -7,6 +7,12 @@
   "author": "mouse_484 <escmouse484@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "node sample"
+    "dev": "node sample",
+    "tsc": "tsc index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^12.12.14",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
   }
 }
