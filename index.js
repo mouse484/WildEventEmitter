@@ -1,18 +1,23 @@
 const defaultEventEmitter = require("events");
 
-class WildEvenEmitter {
+/** Class  WildEventEmitter */
+class WildEventEmitter {
+  /**
+   * Create a WildEventEmitter.
+   * @param {EventEmitter} [EventEmitter] - Your EventEmitter (If not, default EventEmitter).
+   */
   constructor(EventEmitter) {
 
     if (!EventEmitter) EventEmitter = defaultEventEmitter;
 
-    class ExtendEvenEmitter extends EventEmitter {
+    class ExtendEventEmitter extends EventEmitter {
       emit(name, ...args) {
         return super.emit("*", name, ...args);
       }
     }
 
-    return new ExtendEvenEmitter();
+    return new ExtendEventEmitter();
   }
 }
 
-module.exports = WildEvenEmitter;
+module.exports = WildEventEmitter;

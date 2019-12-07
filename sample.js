@@ -1,8 +1,6 @@
 const WildEventEmitter = require("./index.js");
 
-const EventEmitter = require("events");
-
-const event = new WildEventEmitter(EventEmitter);
+const event = new WildEventEmitter();
 
 event.on("*", (name, ...callback) => {
   console.log(`name: ${name} |`, ...callback);
