@@ -1,6 +1,9 @@
 # WildEventEmitter
 Add wildcard to EventEmitter
 
+I'm not familiar with ts type definitions
+Cannot be used with ts
+
 # How to Use
 
 ### Install
