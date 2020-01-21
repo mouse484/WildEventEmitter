@@ -1,4 +1,4 @@
-import * as defaultEventEmitter from 'events';
+import defaultEventEmitter from "events";
 
 class WildEventEmitter {
   constructor(EventEmitter: any) {
