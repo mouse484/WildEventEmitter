@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "node sample",
-    "tsc": "tsc index.ts"
+    "tsc": "tsc"
   },
   "dependencies": {
     "ts-node": "^8.5.4",
